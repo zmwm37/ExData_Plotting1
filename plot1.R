@@ -32,7 +32,7 @@ df_sub <- subset(df, Date_clean >= "2007-02-01" & Date_clean <= "2007-02-02")
 
 
 #plot 1
-png(file = "./Coursera/ExData_Plotting1/plot1.png")
+png(file = "./Coursera/Exploratory Analysis/ExData_Plotting1/plot1.png")
 hist(df_sub$Global_active_power/500,
      col = "red", 
      main = " Global Active Power",
